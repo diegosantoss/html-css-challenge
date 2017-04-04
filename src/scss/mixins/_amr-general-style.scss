@@ -1,4 +1,4 @@
-@mixin zrv-general-style {
+@mixin amr-general-style {
   /** CSS reset to reduce browser inconsistencies in things
    * like default line heights, margins and font sizes of
     * headings, and so on
@@ -34,7 +34,7 @@
   }
 
   body {
-
+    font-family: gotham-book;  
   }
 
   a {
@@ -45,4 +45,5 @@
   li {
     list-style: none;
   }
+
 }

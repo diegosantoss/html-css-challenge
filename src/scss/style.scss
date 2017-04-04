@@ -5,6 +5,7 @@
  * Theme colors
  */
 $white: #ffffff;
+$dark-white: #eeeeee;
 $black: #000000;
 
 
@@ -22,10 +23,10 @@ $xlarge: 1400;
  * Awesome styles
  */
 
-@include zrv-fonts;
+@include amr-fonts;
 
-@include zrv-general-style;
+@include amr-general-style;
 
-@include zrv-header;
+@include amr-header;
 
-@include zrv-footer;
+@include amr-footer;

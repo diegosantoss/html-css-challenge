@@ -8,84 +8,9 @@
  * Awesome styles
  */
 @font-face {
-  font-family: "Zona Pro Black";
-  src: url(../fonts/ZonaPro-Black.eot);
-  src: url(../fonts/ZonaPro-Black.eot?#iefix) format("embedded-opentype"), url(../fonts/ZonaPro-Black.woff2) format("woff2"), url(../fonts/ZonaPro-Black.woff) format("woff"), url(../fonts/ZonaPro-Black.ttf) format("truetype"), url(../fonts/ZonaPro-Black.svg#svgZonaPro-Black) format("svg"); }
-
-@font-face {
-  font-family: "Zona Pro Black Italic";
-  src: url(../fonts/ZonaPro-BlackItalic.eot);
-  src: url(../fonts/ZonaPro-BlackItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/ZonaPro-BlackItalic.woff2) format("woff2"), url(../fonts/ZonaPro-BlackItalic.woff) format("woff"), url(../fonts/ZonaPro-BlackItalic.ttf) format("truetype"), url(../fonts/ZonaPro-BlackItalic.svg#svgZonaPro-BlackItalic) format("svg"); }
-
-@font-face {
-  font-family: "Zona Pro Bold";
-  src: url(../fonts/ZonaPro-Bold.eot);
-  src: url(../fonts/ZonaPro-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/ZonaPro-Bold.woff2) format("woff2"), url(../fonts/ZonaPro-Bold.woff) format("woff"), url(../fonts/ZonaPro-Bold.ttf) format("truetype"), url(../fonts/ZonaPro-Bold.svg#svgZonaPro-Bold) format("svg"); }
-
-@font-face {
-  font-family: "Zona Pro Bold Italic";
-  src: url(../fonts/ZonaPro-BoldItalic.eot);
-  src: url(../fonts/ZonaPro-BoldItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/ZonaPro-BoldItalic.woff2) format("woff2"), url(../fonts/ZonaPro-BoldItalic.woff) format("woff"), url(../fonts/ZonaPro-BoldItalic.ttf) format("truetype"), url(../fonts/ZonaPro-BoldItalic.svg#svgZonaPro-BoldItalic) format("svg"); }
-
-@font-face {
-  font-family: "Zona Pro Extra Bold";
-  src: url(../fonts/ZonaPro-ExtraBold.eot);
-  src: url(../fonts/ZonaPro-ExtraBold.eot?#iefix) format("embedded-opentype"), url(../fonts/ZonaPro-ExtraBold.woff2) format("woff2"), url(../fonts/ZonaPro-ExtraBold.woff) format("woff"), url(../fonts/ZonaPro-ExtraBold.ttf) format("truetype"), url(../fonts/ZonaPro-ExtraBold.svg#svgZonaPro-ExtraBold) format("svg"); }
-
-@font-face {
-  font-family: "Zona Pro Extra Bold Italic";
-  src: url(../fonts/ZonaPro-ExtraBoldItalic.eot);
-  src: url(../fonts/ZonaPro-ExtraBoldItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/ZonaPro-ExtraBoldItalic.woff2) format("woff2"), url(../fonts/ZonaPro-ExtraBoldItalic.woff) format("woff"), url(../fonts/ZonaPro-ExtraBoldItalic.ttf) format("truetype"), url(../fonts/ZonaPro-ExtraBoldItalic.svg#svgZonaPro-ExtraBoldItalic) format("svg"); }
-
-@font-face {
-  font-family: "Zona Pro Hairline";
-  src: url(../fonts/ZonaPro-Hairline.eot);
-  src: url(../fonts/ZonaPro-Hairline.eot?#iefix) format("embedded-opentype"), url(../fonts/ZonaPro-Hairline.woff2) format("woff2"), url(../fonts/ZonaPro-Hairline.woff) format("woff"), url(../fonts/ZonaPro-Hairline.ttf) format("truetype"), url(../fonts/ZonaPro-Hairline.svg#svgZonaPro-Hairline) format("svg"); }
-
-@font-face {
-  font-family: "Zona Pro Hairline Italic";
-  src: url(../fonts/ZonaPro-HairlineItalic.eot);
-  src: url(../fonts/ZonaPro-HairlineItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/ZonaPro-HairlineItalic.woff2) format("woff2"), url(../fonts/ZonaPro-HairlineItalic.woff) format("woff"), url(../fonts/ZonaPro-HairlineItalic.ttf) format("truetype"), url(../fonts/ZonaPro-HairlineItalic.svg#svgZonaPro-HairlineItalic) format("svg"); }
-
-@font-face {
-  font-family: "Zona Pro Light";
-  src: url(../fonts/ZonaPro-Light.eot);
-  src: url(../fonts/ZonaPro-Light.eot?#iefix) format("embedded-opentype"), url(../fonts/ZonaPro-Light.woff2) format("woff2"), url(../fonts/ZonaPro-Light.woff) format("woff"), url(../fonts/ZonaPro-Light.ttf) format("truetype"), url(../fonts/ZonaPro-Light.svg#svgZonaPro-Light) format("svg"); }
-
-@font-face {
-  font-family: "Zona Pro Light Italic";
-  src: url(../fonts/ZonaPro-LightItalic.eot);
-  src: url(../fonts/ZonaPro-LightItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/ZonaPro-LightItalic.woff2) format("woff2"), url(../fonts/ZonaPro-LightItalic.woff) format("woff"), url(../fonts/ZonaPro-LightItalic.ttf) format("truetype"), url(../fonts/ZonaPro-LightItalic.svg#svgZonaPro-LightItalic) format("svg"); }
-
-@font-face {
-  font-family: "Zona Pro Regular Italic";
-  src: url(../fonts/ZonaPro-RegularItalic.eot);
-  src: url(../fonts/ZonaPro-RegularItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/ZonaPro-RegularItalic.woff2) format("woff2"), url(../fonts/ZonaPro-RegularItalic.woff) format("woff"), url(../fonts/ZonaPro-RegularItalic.ttf) format("truetype"), url(../fonts/ZonaPro-RegularItalic.svg#svgZonaPro-RegularItalic) format("svg"); }
-
-@font-face {
-  font-family: "Zona Pro Semi Bold";
-  src: url(../fonts/ZonaPro-SemiBold.eot);
-  src: url(../fonts/ZonaPro-SemiBold.eot?#iefix) format("embedded-opentype"), url(../fonts/ZonaPro-SemiBold.woff2) format("woff2"), url(../fonts/ZonaPro-SemiBold.woff) format("woff"), url(../fonts/ZonaPro-SemiBold.ttf) format("truetype"), url(../fonts/ZonaPro-SemiBold.svg#svgZonaPro-SemiBold) format("svg"); }
-
-@font-face {
-  font-family: "Zona Pro Semi Bold Italic";
-  src: url(../fonts/ZonaPro-SemiBoldItalic.eot);
-  src: url(../fonts/ZonaPro-SemiBoldItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/ZonaPro-SemiBoldItalic.woff2) format("woff2"), url(../fonts/ZonaPro-SemiBoldItalic.woff) format("woff"), url(../fonts/ZonaPro-SemiBoldItalic.ttf) format("truetype"), url(../fonts/ZonaPro-SemiBoldItalic.svg#svgZonaPro-SemiBoldItalic) format("svg"); }
-
-@font-face {
-  font-family: "Zona Pro Thin";
-  src: url(../fonts/ZonaPro-Thin.eot);
-  src: url(../fonts/ZonaPro-Thin.eot?#iefix) format("embedded-opentype"), url(../fonts/ZonaPro-Thin.woff2) format("woff2"), url(../fonts/ZonaPro-Thin.woff) format("woff"), url(../fonts/ZonaPro-Thin.ttf) format("truetype"), url(../fonts/ZonaPro-Thin.svg#svgZonaPro-Thin) format("svg"); }
-
-@font-face {
-  font-family: "Zona Pro Thin Italic";
-  src: url(../fonts/ZonaPro-ThinItalic.eot);
-  src: url(../fonts/ZonaPro-ThinItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/ZonaPro-ThinItalic.woff2) format("woff2"), url(../fonts/ZonaPro-ThinItalic.woff) format("woff"), url(../fonts/ZonaPro-ThinItalic.ttf) format("truetype"), url(../fonts/ZonaPro-ThinItalic.svg#svgZonaPro-ThinItalic) format("svg"); }
-
-@font-face {
-  font-family: "Zona Pro";
-  src: url(../fonts/ZonaPro.eot);
-  src: url(../fonts/ZonaPro.eot?#iefix) format("embedded-opentype"), url(../fonts/ZonaPro.woff2) format("woff2"), url(../fonts/ZonaPro.woff) format("woff"), url(../fonts/ZonaPro.ttf) format("truetype"), url(../fonts/ZonaPro.svg#svgZonaPro) format("svg"); }
+  font-family: "gotham-book";
+  src: url(../fonts/gotham-book.eot);
+  src: url(../fonts/gotham-book.eot?#iefix) format("embedded-opentype"), url(../fonts/gotham-book.woff2) format("woff2"), url(../fonts/gotham-book.woff) format("woff"), url(../fonts/gotham-book.ttf) format("truetype"), url(../fonts/gotham-book.svg#svggotham-book) format("svg"); }
 
 /** CSS reset to reduce browser inconsistencies in things
    * like default line heights, margins and font sizes of
@@ -118,9 +43,63 @@ div:before, div:after {
 div:after {
   clear: both; }
 
+body {
+  font-family: gotham-book; }
+
 a {
   text-decoration: none;
   color: #000000; }
 
 li {
   list-style: none; }
+
+#header {
+  display: block;
+  width: 100%;
+  height: 100%; }
+  #header .nav-bar {
+    font-size: 12px;
+    background: #eeeeee;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 7px 25px; }
+    #header .nav-bar div:nth-child(1) {
+      width: 120px;
+      margin: inherit; }
+    #header .nav-bar div:nth-child(2) {
+      width: 302px;
+      margin: auto; }
+    #header .nav-bar div:nth-child(3) {
+      width: 198px; }
+    #header .nav-bar div ul li {
+      display: inline-flex;
+      vertical-align: middle; }
+      #header .nav-bar div ul li i {
+        padding: 0px 7px 0px 20px; }
+      #header .nav-bar div ul li img.separador {
+        width: 3px;
+        padding: 0px 10px; }
+  #header .nav-menu {
+    font-size: 12px;
+    background: #eeeeee;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 7px 25px; }
+    #header .nav-menu div:nth-child(1) {
+      width: 120px;
+      margin: inherit; }
+    #header .nav-menu div:nth-child(2) {
+      width: 302px;
+      margin: auto; }
+    #header .nav-menu div:nth-child(3) {
+      width: 198px; }
+    #header .nav-menu div ul li {
+      display: inline-flex;
+      vertical-align: middle; }
+      #header .nav-menu div ul li i {
+        padding: 0px 7px 0px 20px; }
+      #header .nav-menu div ul li img.separador {
+        width: 3px;
+        padding: 0px 10px; }

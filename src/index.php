@@ -13,6 +13,45 @@
   <div class="wrapper"> 
 
     <header id="header">
+        <nav class="nav-bar">
+          <div><p>Conheça nosso App</p></div>
+          <div>
+            <ul>
+              <li><p>Frete Grátis</p></li>
+              <li><img src="images/separador.png" alt="separador" class="separador"></li>
+              <li><p>Entrega Express</p></li>
+              <li><img src="images/separador.png" alt="separador" class="separador"></li>
+              <li><p>Troca Grátis</p></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><i class="fa fa-phone" aria-hidden="true"></i><p>(11) 3230-4500</p></li>
+              <li><i class="fa fa-comment" aria-hidden="true"></i><p>Chat</p></li>
+            </ul>
+          </div>
+        </nav>
+        <nav class="nav-menu">
+          <div>
+            <ul>
+              <li><p>Frete Grátis</p></li>
+              <li><img src="images/separador.png" alt="separador" class="separador"></li>
+              <li><p>Entrega Express</p></li>
+              <li><img src="images/separador.png" alt="separador" class="separador"></li>
+              <li><p>Troca Grátis</p></li>
+            </ul>
+          </div>
+
+          <div><p>AMARO</p></div>
+
+          <div>
+            <ul>
+              <li><i class="fa fa-circle-o-notch fa-fw" aria-hidden="true"></i></li>
+              <li><i class="fa fa-circle-o-notch fa-fw" aria-hidden="true"></i></li>
+              <li><i class="fa fa-circle-o-notch fa-fw" aria-hidden="true"></i></li>              
+            </ul>
+          </div>
+        </nav>
     </header>
 
     <footer id="footer">
