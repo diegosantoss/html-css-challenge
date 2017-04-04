@@ -59,59 +59,74 @@
       }
     }
 
-    & .nav-menu{
-      font-size: 12px;
-      background: $dark-white;
-      width: 100%;
-      display: flex;
-      box-sizing: border-box;
-      padding: 7px 25px;
+    // & .nav-menu{
+    //   font-size: 12px;
+    //   background: $dark-white;
+    //   width: 100%;
+    //   display: flex;
+    //   box-sizing: border-box;
+    //   padding: 7px 25px;
       
-      & div{ 
+    //   & div{ 
 
-        &:nth-child(1){
-          width: 120px;
-          margin: inherit;
-        }
+    //     &:nth-child(1){
+    //       width: 120px;
+    //       margin: inherit;
+    //     }
   
-        &:nth-child(2){
-          width: 302px;
-          margin: auto;
-        }  
+    //     &:nth-child(2){
+    //       width: 302px;
+    //       margin: auto;
+    //     }  
 
-        &:nth-child(3){
-          width: 198px;
-        }        
+    //     &:nth-child(3){
+    //       width: 198px;
+    //     }        
 
-        & p{
+    //     & p{
 
-        }
+    //     }
 
-        & ul{
+    //     & ul{
         
-          & li{
-            display: inline-flex;
-            vertical-align: middle;
+    //       & li{
+    //         display: inline-flex;
+    //         vertical-align: middle;
 
-            & p{
+    //         & p{
 
-            }
+    //         }
 
-            & i{
-              padding: 0px 7px 0px 20px;
-            }
+    //         & i{
+    //           padding: 0px 7px 0px 20px;
+    //         }
 
-            & img{
+    //         & img{
 
-            }
+    //         }
 
-            & img.separador{
-              width: 3px;
-              padding: 0px 10px;
-            }
-          }
+    //         & img.separador{
+    //           width: 3px;
+    //           padding: 0px 10px;
+    //         }
+    //       }
+    //     }
+    //   }
+    // }   
+
+    & .content-center-home{
+      background-image: url('../images/trench-coat-london-breeze-main.jpg');
+      background-position: center top;
+      background-size: cover; 
+      display: block;
+      width: 100%;
+
+      & div{
+
+        & h1{
+          
         }
       }
-    }    
+    } 
   }
 }

@@ -14,12 +14,10 @@
 
 function hgScreen(){
   var hgHeight = window.innerHeight;
-  hgCenter = ( hgHeight - $('div.text-home').height() - $('div.navbar-lang').innerHeight() ) / 2;
+  hgCenter = ( hgHeight - $('.content-center-home > div > h1').height() ) / 2;
   
-  console.log($('div.text-home').innerHeight());
-  
-  $('#header').css('height', hgHeight);
-  $('div.text-home').css({'margin-top': hgCenter + 'px'});
+  $('.content-center-home').css('height', hgHeight);
+  $('.content-center-home > div > h1').css({'margin-top': hgCenter + 'px'});
 
 }
 

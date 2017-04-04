@@ -31,7 +31,7 @@
             </ul>
           </div>
         </nav>
-        <nav class="nav-menu">
+        <!-- <nav class="nav-menu">
           <div>
             <ul>
               <li><p>Frete Grátis</p></li>
@@ -51,7 +51,12 @@
               <li><i class="fa fa-circle-o-notch fa-fw" aria-hidden="true"></i></li>              
             </ul>
           </div>
-        </nav>
+        </nav> -->
+        <div class="content-center-home">
+          <div>
+            <h1>trench coat london breeze</h1>
+          </div>
+        </div>
     </header>
 
     <footer id="footer">
