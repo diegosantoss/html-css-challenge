@@ -1,0 +1,20 @@
+@mixin zrv-fonts {
+  @include font-family("Zona Pro Black"				,"ZonaPro-Black"			,"../fonts");
+  @include font-family("Zona Pro Black Italic"		,"ZonaPro-BlackItalic"		,"../fonts");
+  @include font-family("Zona Pro Bold"				,"ZonaPro-Bold"				,"../fonts");
+  @include font-family("Zona Pro Bold Italic"		,"ZonaPro-BoldItalic"		,"../fonts");
+  @include font-family("Zona Pro Extra Bold"		,"ZonaPro-ExtraBold"		,"../fonts");
+  @include font-family("Zona Pro Extra Bold Italic"	,"ZonaPro-ExtraBoldItalic"	,"../fonts");
+  @include font-family("Zona Pro Hairline"			,"ZonaPro-Hairline"			,"../fonts");
+  @include font-family("Zona Pro Hairline Italic"	,"ZonaPro-HairlineItalic"	,"../fonts");
+  @include font-family("Zona Pro Light"				,"ZonaPro-Light"			,"../fonts");
+  @include font-family("Zona Pro Light Italic"		,"ZonaPro-LightItalic"		,"../fonts");
+  @include font-family("Zona Pro Regular Italic"	,"ZonaPro-RegularItalic"	,"../fonts");
+  @include font-family("Zona Pro Semi Bold"			,"ZonaPro-SemiBold"			,"../fonts");
+  @include font-family("Zona Pro Semi Bold Italic"	,"ZonaPro-SemiBoldItalic"	,"../fonts");
+  @include font-family("Zona Pro Thin"				,"ZonaPro-Thin"				,"../fonts");
+  @include font-family("Zona Pro Thin Italic"		,"ZonaPro-ThinItalic"		,"../fonts");
+  @include font-family("Zona Pro"					,"ZonaPro"					,"../fonts");
+}
+
+

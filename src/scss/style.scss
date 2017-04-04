@@ -1,0 +1,31 @@
+//Get all mixins
+@import './mixins/main';
+
+/**
+ * Theme colors
+ */
+$white: #ffffff;
+$black: #000000;
+
+
+/**
+ * Breakpoints
+ */
+
+$xsmall: 460;
+$small: 768;
+$medium: 991;
+$large: 1200;
+$xlarge: 1400;
+
+/**
+ * Awesome styles
+ */
+
+@include zrv-fonts;
+
+@include zrv-general-style;
+
+@include zrv-header;
+
+@include zrv-footer;
