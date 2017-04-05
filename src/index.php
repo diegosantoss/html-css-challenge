@@ -59,6 +59,33 @@
         </div>
     </header>
 
+    <section id="classico-casual">
+      <div class="content">
+        <div class="left">
+          <div class="pratico">
+            <h2>prático</h2>
+            <p>Não pense duas vezes: ao escolher o casaco<br /> para o inverno ou meia estação nada melhor que<br /> o Trench Coat! Proteja-se contra o vento e as<br /> temperaturas mais baixas sem perder o estilo.</p>
+            <a href="#" title="">SHOP NOW <i class="fa fa-angle-right fa-fw" aria-hidden="true"></i></a>
+          </div>
+          <div class="text">
+            <h2>clássico</h2>
+          </div>
+          <div class="imagem">
+            <img src="images/trench-coat-london-breeze-modelo-02.jpg" alt="">
+            <a href="#" title="">SHOP NOW <i class="fa fa-angle-right fa-fw" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="right">
+          <div class="imagem">
+            <img src="images/trench-coat-london-breeze-modelo-01.jpg" alt="">
+          </div>          
+          <div class="text">
+            <h2>casual</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer id="footer">
 
     </footer>  

@@ -6,6 +6,7 @@
  */
 $white: #ffffff;
 $dark-white: #eeeeee;
+$dark-grey: #333333;
 $black: #000000;
 
 
@@ -28,5 +29,7 @@ $xlarge: 1400;
 @include amr-general-style;
 
 @include amr-header;
+
+@include amr-classico-casual;
 
 @include amr-footer;

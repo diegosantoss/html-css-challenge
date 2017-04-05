@@ -13,7 +13,7 @@
 
 
 function hgScreen(){
-  var hgHeight = window.innerHeight;
+  var hgHeight = window.innerHeight - $('.nav-bar').innerHeight();
   hgCenter = ( hgHeight - $('.content-center-home > div > h1').height() ) / 2;
   
   $('.content-center-home').css('height', hgHeight);

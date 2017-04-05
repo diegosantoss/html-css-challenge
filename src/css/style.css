@@ -12,6 +12,11 @@
   src: url(../fonts/gotham-book.eot);
   src: url(../fonts/gotham-book.eot?#iefix) format("embedded-opentype"), url(../fonts/gotham-book.woff2) format("woff2"), url(../fonts/gotham-book.woff) format("woff"), url(../fonts/gotham-book.ttf) format("truetype"), url(../fonts/gotham-book.svg#svggotham-book) format("svg"); }
 
+@font-face {
+  font-family: "gotham-medium";
+  src: url(../fonts/gotham-medium.eot);
+  src: url(../fonts/gotham-medium.eot?#iefix) format("embedded-opentype"), url(../fonts/gotham-medium.woff2) format("woff2"), url(../fonts/gotham-medium.woff) format("woff"), url(../fonts/gotham-medium.ttf) format("truetype"), url(../fonts/gotham-medium.svg#svggotham-medium) format("svg"); }
+
 /** CSS reset to reduce browser inconsistencies in things
    * like default line heights, margins and font sizes of
     * headings, and so on
@@ -79,6 +84,7 @@ li {
         padding: 0px 7px 0px 20px; }
       #header .nav-bar div ul li img.separador {
         width: 3px;
+        height: 3px;
         padding: 0px 10px; }
   #header .content-center-home {
     background-image: url("../images/trench-coat-london-breeze-main.jpg");
@@ -86,3 +92,89 @@ li {
     background-size: cover;
     display: block;
     width: 100%; }
+    #header .content-center-home div h1 {
+      text-transform: uppercase;
+      font-size: 63px;
+      font-family: gotham-medium;
+      line-height: 86px;
+      margin: auto;
+      width: 992px;
+      font-weight: bold;
+      text-align: center;
+      letter-spacing: 40px; }
+
+#classico-casual {
+  width: 100%;
+  display: block;
+  position: relative; }
+  #classico-casual .content {
+    display: block;
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 100px 0px; }
+    #classico-casual .content .left {
+      width: 50%;
+      float: left; }
+      #classico-casual .content .left .pratico {
+        width: 85%;
+        margin: auto;
+        text-align: center;
+        padding: 80px 0px 80px 0px; }
+        #classico-casual .content .left .pratico h2 {
+          text-transform: uppercase;
+          font-family: gotham-medium;
+          font-size: 35px;
+          letter-spacing: 10px;
+          font-weight: bold; }
+        #classico-casual .content .left .pratico p {
+          font-size: 14px;
+          font-weight: bold;
+          padding: 30px 0px 20px 0px; }
+        #classico-casual .content .left .pratico a {
+          background: #333333;
+          color: #ffffff;
+          padding: 16px;
+          display: inline-block; }
+      #classico-casual .content .left .text {
+        position: absolute;
+        left: -25px;
+        top: 409px; }
+        #classico-casual .content .left .text h2 {
+          font-weight: bold;
+          text-transform: uppercase;
+          font-size: 118px;
+          font-family: gotham-medium;
+          letter-spacing: 70px; }
+      #classico-casual .content .left .imagem {
+        text-align: center;
+        width: 75%;
+        margin: auto; }
+        #classico-casual .content .left .imagem img {
+          width: 455px;
+          margin: auto;
+          display: block;
+          padding-bottom: 50px; }
+        #classico-casual .content .left .imagem a {
+          background: #333333;
+          color: #ffffff;
+          padding: 16px;
+          display: inline-block; }
+    #classico-casual .content .right {
+      width: 50%;
+      float: right; }
+      #classico-casual .content .right .imagem {
+        text-align: center;
+        width: 85%;
+        float: right; }
+        #classico-casual .content .right .imagem img {
+          width: 515px;
+          margin: auto;
+          display: block;
+          padding-bottom: 50px; }
+      #classico-casual .content .right .text h2 {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 118px;
+        font-family: gotham-medium;
+        letter-spacing: 25px; }

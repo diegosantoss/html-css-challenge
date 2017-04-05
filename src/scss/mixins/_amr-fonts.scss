@@ -1,5 +1,6 @@
 @mixin amr-fonts {
   @include font-family("gotham-book"				,"gotham-book"			,"../fonts");
+  @include font-family("gotham-medium"				,"gotham-medium"		,"../fonts");  
 }
 
 
