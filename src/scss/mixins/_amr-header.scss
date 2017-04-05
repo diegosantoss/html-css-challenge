@@ -4,61 +4,61 @@
     width: 100%;
     height: 100%;
 
-    & .nav-bar{
-      font-size: 12px;
-      background: $dark-white;
-      width: 100%;
-      display: flex;
-      box-sizing: border-box;
-      padding: 7px 25px;
+    // & .nav-bar{
+    //   font-size: 12px;
+    //   background: $dark-white;
+    //   width: 100%;
+    //   display: flex;
+    //   box-sizing: border-box;
+    //   padding: 7px 25px;
       
-      & div{ 
+    //   & div{ 
 
-        &:nth-child(1){
-          width: 120px;
-          margin: inherit;
-        }
+    //     &:nth-child(1){
+    //       width: 120px;
+    //       margin: inherit;
+    //     }
   
-        &:nth-child(2){
-          width: 302px;
-          margin: auto;
-        }  
+    //     &:nth-child(2){
+    //       width: 302px;
+    //       margin: auto;
+    //     }  
 
-        &:nth-child(3){
-          width: 198px;
-        }        
+    //     &:nth-child(3){
+    //       width: 198px;
+    //     }        
 
-        & p{
+    //     & p{
 
-        }
+    //     }
 
-        & ul{
+    //     & ul{
         
-          & li{
-            display: inline-flex;
-            vertical-align: middle;
+    //       & li{
+    //         display: inline-flex;
+    //         vertical-align: middle;
 
-            & p{
+    //         & p{
 
-            }
+    //         }
 
-            & i{
-              padding: 0px 7px 0px 20px;
-            }
+    //         & i{
+    //           padding: 0px 7px 0px 20px;
+    //         }
 
-            & img{
+    //         & img{
 
-            }
+    //         }
 
-            & img.separador{
-              width: 3px;
-              height: 3px;
-              padding: 0px 10px;
-            }
-          }
-        }
-      }
-    }
+    //         & img.separador{
+    //           width: 3px;
+    //           height: 3px;
+    //           padding: 0px 10px;
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
 
     // & .nav-menu{
     //   font-size: 12px;
@@ -122,6 +122,10 @@
       display: block;
       width: 100%;
 
+      @include amr-media($medium){
+        
+      }
+
       & div{
 
         & h1{
@@ -133,6 +137,13 @@
           display: block;
           line-height: 1;
           letter-spacing: 30px;
+
+          @include amr-media($medium){
+            font-size: 50px;
+            padding: 35px 0px;
+            line-height: 2;
+            letter-spacing: 6px;            
+          }
         }
       }
     } 

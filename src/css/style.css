@@ -62,30 +62,6 @@ li {
   display: block;
   width: 100%;
   height: 100%; }
-  #header .nav-bar {
-    font-size: 12px;
-    background: #eeeeee;
-    width: 100%;
-    display: flex;
-    box-sizing: border-box;
-    padding: 7px 25px; }
-    #header .nav-bar div:nth-child(1) {
-      width: 120px;
-      margin: inherit; }
-    #header .nav-bar div:nth-child(2) {
-      width: 302px;
-      margin: auto; }
-    #header .nav-bar div:nth-child(3) {
-      width: 198px; }
-    #header .nav-bar div ul li {
-      display: inline-flex;
-      vertical-align: middle; }
-      #header .nav-bar div ul li i {
-        padding: 0px 7px 0px 20px; }
-      #header .nav-bar div ul li img.separador {
-        width: 3px;
-        height: 3px;
-        padding: 0px 10px; }
   #header .content-center-home {
     background-image: url("../images/trench-coat-london-breeze-main.jpg");
     background-position: center top;
@@ -101,6 +77,12 @@ li {
       display: block;
       line-height: 1;
       letter-spacing: 30px; }
+      @media screen and (max-width: 991px) {
+        #header .content-center-home div h1 {
+          font-size: 50px;
+          padding: 35px 0px;
+          line-height: 2;
+          letter-spacing: 6px; } }
 
 #classico-casual {
   width: 100%;
@@ -112,24 +94,44 @@ li {
     margin: auto;
     box-sizing: border-box;
     padding: 150px 0px 220px 0px; }
+    @media screen and (max-width: 991px) {
+      #classico-casual .content {
+        padding: 75px 0px 220px 0px;
+        width: 98%; } }
     #classico-casual .content .left {
       width: 50%;
       float: left; }
+      @media screen and (max-width: 991px) {
+        #classico-casual .content .left {
+          width: 100%; } }
       #classico-casual .content .left .pratico {
         width: 85%;
         margin: auto;
         text-align: center;
         padding: 80px 0px 80px 0px; }
+        @media screen and (max-width: 991px) {
+          #classico-casual .content .left .pratico {
+            width: 85%;
+            margin: auto;
+            text-align: center;
+            padding: 0px 0px 50px 0px; } }
         #classico-casual .content .left .pratico h2 {
           text-transform: uppercase;
           font-family: gotham-medium;
           font-size: 4vw;
           letter-spacing: 10px;
           font-weight: bold; }
+          @media screen and (max-width: 991px) {
+            #classico-casual .content .left .pratico h2 {
+              font-size: 35px; } }
         #classico-casual .content .left .pratico p {
           font-size: 1vw;
           font-weight: bold;
           padding: 30px 0px 30px 0px; }
+          @media screen and (max-width: 991px) {
+            #classico-casual .content .left .pratico p {
+              font-size: 15px;
+              padding: 25px 0px 20px 0px; } }
         #classico-casual .content .left .pratico a {
           background: #333333;
           color: #ffffff;
@@ -142,25 +144,43 @@ li {
             transition: .2s all;
             background: #ffffff;
             color: #333333; }
+          @media screen and (max-width: 991px) {
+            #classico-casual .content .left .pratico a {
+              padding: 13px 30px;
+              font-size: 14px; } }
       #classico-casual .content .left .text {
         position: absolute;
         left: -25px;
         top: 32%; }
+        @media screen and (max-width: 991px) {
+          #classico-casual .content .left .text {
+            left: -8px;
+            top: 25.8%; } }
         #classico-casual .content .left .text h2 {
           font-weight: bold;
           text-transform: uppercase;
           font-size: 9.5vw;
           font-family: gotham-medium;
           letter-spacing: 60px; }
+          @media screen and (max-width: 991px) {
+            #classico-casual .content .left .text h2 {
+              font-size: 15vw;
+              letter-spacing: inherit; } }
       #classico-casual .content .left .imagem {
         text-align: center;
         width: 75%;
         margin: auto; }
+        @media screen and (max-width: 991px) {
+          #classico-casual .content .left .imagem {
+            width: 100%; } }
         #classico-casual .content .left .imagem img {
           width: 100%;
           margin: auto;
           display: block;
           padding-bottom: 50px; }
+          @media screen and (max-width: 991px) {
+            #classico-casual .content .left .imagem img {
+              padding-bottom: 35px; } }
         #classico-casual .content .left .imagem a {
           background: #333333;
           color: #ffffff;
@@ -169,6 +189,10 @@ li {
           border: 1px #333333 solid;
           display: inline-block;
           transition: .2s all; }
+          @media screen and (max-width: 991px) {
+            #classico-casual .content .left .imagem a {
+              padding: 13px 30px;
+              font-size: 14px; } }
           #classico-casual .content .left .imagem a:hover {
             transition: .2s all;
             background: #ffffff;
@@ -176,10 +200,18 @@ li {
     #classico-casual .content .right {
       width: 50%;
       float: right; }
+      @media screen and (max-width: 991px) {
+        #classico-casual .content .right {
+          width: 100%; } }
       #classico-casual .content .right .imagem {
         text-align: center;
         width: 85%;
         float: right; }
+        @media screen and (max-width: 991px) {
+          #classico-casual .content .right .imagem {
+            width: 100%;
+            float: inherit;
+            padding-top: 35px; } }
         #classico-casual .content .right .imagem img {
           width: 100%;
           margin: auto;

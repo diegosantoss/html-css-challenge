@@ -11,16 +11,15 @@
 //   });
 // };
 
-
 function hgScreen(){
   var hgHeight = window.innerHeight;
   hgCenter = ( hgHeight - $('.content-center-home > div > h1').height() ) / 2;
   
-  $('.content-center-home').css('height', hgHeight);
-  $('.content-center-home > div > h1').css({'margin-top': hgCenter + 'px'});
-
+  if(hgHeight >= 992){
+	  $('.content-center-home').css('height', hgHeight);
+	  $('.content-center-home > div > h1').css({'margin-top': hgCenter + 'px'});  	
+  }
 }
-
 
 $(function(){
   hgScreen();
