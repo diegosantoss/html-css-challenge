@@ -135,7 +135,13 @@ li {
           color: #ffffff;
           padding: 16px;
           font-size: 1vw;
-          display: inline-block; }
+          border: 1px #333333 solid;
+          display: inline-block;
+          transition: .2s all; }
+          #classico-casual .content .left .pratico a:hover {
+            transition: .2s all;
+            background: #ffffff;
+            color: #333333; }
       #classico-casual .content .left .text {
         position: absolute;
         left: -25px;
@@ -160,7 +166,13 @@ li {
           color: #ffffff;
           padding: 16px;
           font-size: 1vw;
-          display: inline-block; }
+          border: 1px #333333 solid;
+          display: inline-block;
+          transition: .2s all; }
+          #classico-casual .content .left .imagem a:hover {
+            transition: .2s all;
+            background: #ffffff;
+            color: #333333; }
     #classico-casual .content .right {
       width: 50%;
       float: right; }
@@ -195,12 +207,11 @@ li {
       left: 10%;
       z-index: -1; }
       #casaco-preto .content .image img {
-        width: 70%; }
+        width: 685px; }
     #casaco-preto .content .text-preto {
       text-align: center;
       margin: auto;
       margin-top: 265px;
-      width: 550px;
       z-index: 99999;
       display: block; }
       #casaco-preto .content .text-preto h2 {
@@ -220,7 +231,12 @@ li {
         color: #ffffff;
         padding: 16px;
         font-size: 1vw;
-        display: inline-block; }
+        display: inline-block;
+        transition: .2s all; }
+        #casaco-preto .content .text-preto a:hover {
+          transition: .2s all;
+          background: #ffffff;
+          color: #333333; }
 
 #casaco-vinho {
   width: 100%;
@@ -235,7 +251,6 @@ li {
       text-align: center;
       margin: auto;
       margin-top: 295px;
-      width: 560px;
       display: block; }
       #casaco-vinho .content .text-vinho h2 {
         text-transform: uppercase;
@@ -254,4 +269,9 @@ li {
         color: #ffffff;
         padding: 16px;
         font-size: 1vw;
-        display: inline-block; }
+        display: inline-block;
+        transition: .2s all; }
+        #casaco-vinho .content .text-vinho a:hover {
+          transition: .2s all;
+          background: #ffffff;
+          color: #333333; }

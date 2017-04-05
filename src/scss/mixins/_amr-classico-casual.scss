@@ -40,7 +40,15 @@
 				    	color: $white;
 						padding: 16px;
 						font-size: 1vw;
-						display: inline-block;				    	
+						border: 1px $dark-grey solid;
+						display: inline-block;	
+						transition: .2s all;
+
+						&:hover{
+							transition: .2s all;
+					    	background: $white;
+					    	color: $dark-grey;
+						}			    	
 				    }
 				}
 
@@ -75,7 +83,15 @@
 				    	color: $white;
 						padding: 16px;
 						font-size: 1vw;
-						display: inline-block;						
+						border: 1px $dark-grey solid;
+						display: inline-block;	
+						transition: .2s all;
+
+						&:hover{
+							transition: .2s all;
+					    	background: $white;
+					    	color: $dark-grey;
+						}					
 					}
 				}
 			}

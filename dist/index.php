@@ -13,7 +13,7 @@
   <div class="wrapper"> 
 
     <header id="header">
-        <nav class="nav-bar">
+        <!-- <nav class="nav-bar">
           <div><p>Conheça nosso App</p></div>
           <div>
             <ul>
@@ -31,7 +31,7 @@
             </ul>
           </div>
         </nav>
-        <!-- <nav class="nav-menu">
+        <nav class="nav-menu">
           <div>
             <ul>
               <li><p>Frete Grátis</p></li>

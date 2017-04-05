@@ -14,7 +14,6 @@
 			    text-align: center;
 			    margin: auto;
 			    margin-top: 295px;
-			    width: 560px;
 			    display: block;
 
 				& h2{
@@ -39,6 +38,13 @@
 					padding: 16px;
 					font-size: 1vw;
 					display: inline-block;	
+					transition: .2s all;
+
+					&:hover{
+						transition: .2s all;
+				    	background: $white;
+				    	color: $dark-grey;
+					}	
 				}
 			}
 		}
