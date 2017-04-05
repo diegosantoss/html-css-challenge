@@ -1,0 +1,53 @@
+@mixin amr-casaco-preto{
+	#casaco-preto{
+		width: 100%;
+		display: block;
+		background: $light-black;
+		position: relative;
+
+		& .content{
+			height: 1010px;
+
+			& .image{
+			    position: absolute;
+			    top: -140px;
+
+				& img{
+
+				}
+			}
+
+			& .text-preto{
+			    text-align: center;
+			    margin: auto;
+			    margin-top: 295px;
+			    width: 560px;
+			    display: block;
+
+				& h2{
+					text-transform: uppercase;
+					font-family: gotham-medium;
+					font-size: 4vw;
+					color: $white;
+				    letter-spacing: 10px;
+				    font-weight: bold;
+				}
+
+				& p{
+			    	font-size: 1.2vw;
+			    	color: $white;
+			    	font-family: gotham-book;
+					padding: 30px 0px 30px 0px;
+				}
+
+				& a{
+			    	border: 1px white solid;
+			    	color: $white;
+					padding: 16px;
+					font-size: 1vw;
+					display: inline-block;	
+				}
+			}
+		}
+	}
+}

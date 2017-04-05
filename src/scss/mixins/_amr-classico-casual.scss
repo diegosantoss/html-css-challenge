@@ -9,7 +9,7 @@
 			width: 90%;
 			margin: auto;
 			box-sizing: border-box;
-			padding: 100px 0px;
+			padding: 150px 0px 220px 0px;
 
 			& .left{
 				width: 50%;
@@ -24,21 +24,22 @@
 					& h2{
 					text-transform: uppercase;
 					font-family: gotham-medium;
-					font-size: 35px;
+					font-size: 4vw;
 				    letter-spacing: 10px;
 				    font-weight: bold;
 				    }
 
 				    & p{
-				    	font-size: 14px;
+				    	font-size: 1.2vw;
 				    	font-weight: bold;
-    					padding: 30px 0px 20px 0px;;
+    					padding: 30px 0px 30px 0px;
 				    }
 
 				    & a{
 				    	background: $dark-grey;
 				    	color: $white;
 						padding: 16px;
+						font-size: 1vw;
 						display: inline-block;				    	
 				    }
 				}
@@ -46,14 +47,14 @@
 				& .text{
 					position: absolute;
 					left: -25px;
-					top: 409px;
+					top: 32%;
 
 					h2{
 					    font-weight: bold;
 					    text-transform: uppercase;
-					    font-size: 118px;
+					    font-size: 10vw;
 					    font-family: gotham-medium;
-					    letter-spacing: 70px;
+					    letter-spacing: 60px;
 					}
 				}					
 
@@ -63,7 +64,7 @@
 					margin: auto;
 
 					& img{
-					    width: 455px;
+					    width: 100%;
 					    margin: auto;
 					    display: block;
 					    padding-bottom: 50px;
@@ -73,6 +74,7 @@
 				    	background: $dark-grey;
 				    	color: $white;
 						padding: 16px;
+						font-size: 1vw;
 						display: inline-block;						
 					}
 				}
@@ -88,7 +90,7 @@
 					float: right;
 
 					& img{
-					    width: 515px;
+					    width: 100%;
 					    margin: auto;
 					    display: block;
 					    padding-bottom: 50px;
@@ -100,9 +102,9 @@
 					h2{
 					    font-weight: bold;
 					    text-transform: uppercase;
-					    font-size: 118px;
+					    font-size: 9vw;
 					    font-family: gotham-medium;
-					    letter-spacing: 25px;
+					    letter-spacing: 15px;
 					}
 				}								
 			}

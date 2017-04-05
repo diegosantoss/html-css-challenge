@@ -54,7 +54,7 @@
         </nav> -->
         <div class="content-center-home">
           <div>
-            <h1>trench coat london breeze</h1>
+            <h1>trench coat<br />london<br />breeze</h1>
           </div>
         </div>
     </header>
@@ -82,6 +82,19 @@
           <div class="text">
             <h2>casual</h2>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="casaco-preto">
+      <div class="content">
+        <div class="image">
+          <img src="images/trench-coat-london-breeze-preto.png" alt="trench coat london breeze preto">
+        </div>
+        <div class="text-preto">
+          <h2>preto</h2>
+          <p>Nossa cor favorita do inverno não poderia faltar.<br />Se você é a favor da máxima quanto mais preto<br />melhor, bem... Vá de preto!</p>
+          <a href="#" title="">SHOP NOW <i class="fa fa-angle-right fa-fw" aria-hidden="true"></i></a>
         </div>
       </div>
     </section>

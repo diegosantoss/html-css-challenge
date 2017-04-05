@@ -94,14 +94,13 @@ li {
     width: 100%; }
     #header .content-center-home div h1 {
       text-transform: uppercase;
-      font-size: 63px;
+      font-size: 7vw;
       font-family: gotham-medium;
-      line-height: 86px;
-      margin: auto;
-      width: 992px;
-      font-weight: bold;
       text-align: center;
-      letter-spacing: 40px; }
+      font-weight: bold;
+      display: block;
+      line-height: 1;
+      letter-spacing: 30px; }
 
 #classico-casual {
   width: 100%;
@@ -112,7 +111,7 @@ li {
     width: 90%;
     margin: auto;
     box-sizing: border-box;
-    padding: 100px 0px; }
+    padding: 150px 0px 220px 0px; }
     #classico-casual .content .left {
       width: 50%;
       float: left; }
@@ -124,34 +123,35 @@ li {
         #classico-casual .content .left .pratico h2 {
           text-transform: uppercase;
           font-family: gotham-medium;
-          font-size: 35px;
+          font-size: 4vw;
           letter-spacing: 10px;
           font-weight: bold; }
         #classico-casual .content .left .pratico p {
-          font-size: 14px;
+          font-size: 1.2vw;
           font-weight: bold;
-          padding: 30px 0px 20px 0px; }
+          padding: 30px 0px 30px 0px; }
         #classico-casual .content .left .pratico a {
           background: #333333;
           color: #ffffff;
           padding: 16px;
+          font-size: 1vw;
           display: inline-block; }
       #classico-casual .content .left .text {
         position: absolute;
         left: -25px;
-        top: 409px; }
+        top: 32%; }
         #classico-casual .content .left .text h2 {
           font-weight: bold;
           text-transform: uppercase;
-          font-size: 118px;
+          font-size: 10vw;
           font-family: gotham-medium;
-          letter-spacing: 70px; }
+          letter-spacing: 60px; }
       #classico-casual .content .left .imagem {
         text-align: center;
         width: 75%;
         margin: auto; }
         #classico-casual .content .left .imagem img {
-          width: 455px;
+          width: 100%;
           margin: auto;
           display: block;
           padding-bottom: 50px; }
@@ -159,6 +159,7 @@ li {
           background: #333333;
           color: #ffffff;
           padding: 16px;
+          font-size: 1vw;
           display: inline-block; }
     #classico-casual .content .right {
       width: 50%;
@@ -168,13 +169,48 @@ li {
         width: 85%;
         float: right; }
         #classico-casual .content .right .imagem img {
-          width: 515px;
+          width: 100%;
           margin: auto;
           display: block;
           padding-bottom: 50px; }
       #classico-casual .content .right .text h2 {
         font-weight: bold;
         text-transform: uppercase;
-        font-size: 118px;
+        font-size: 9vw;
         font-family: gotham-medium;
-        letter-spacing: 25px; }
+        letter-spacing: 15px; }
+
+#casaco-preto {
+  width: 100%;
+  display: block;
+  background: #2a2a2a;
+  position: relative; }
+  #casaco-preto .content {
+    height: 1010px; }
+    #casaco-preto .content .image {
+      position: absolute;
+      top: -140px; }
+    #casaco-preto .content .text-preto {
+      text-align: center;
+      margin: auto;
+      margin-top: 295px;
+      width: 560px;
+      display: block; }
+      #casaco-preto .content .text-preto h2 {
+        text-transform: uppercase;
+        font-family: gotham-medium;
+        font-size: 4vw;
+        color: #ffffff;
+        letter-spacing: 10px;
+        font-weight: bold; }
+      #casaco-preto .content .text-preto p {
+        font-size: 1.2vw;
+        color: #ffffff;
+        font-family: gotham-book;
+        padding: 30px 0px 30px 0px; }
+      #casaco-preto .content .text-preto a {
+        border: 1px white solid;
+        color: #ffffff;
+        padding: 16px;
+        font-size: 1vw;
+        display: inline-block; }
