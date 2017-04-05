@@ -99,6 +99,16 @@
       </div>
     </section>
 
+    <section id="casaco-vinho">
+      <div class="content">
+        <div class="text-vinho">
+          <h2>vinho</h2>
+          <p>Nem só de tons sóbrios se vive um inverno. O<br />vermelho é clássico e combina com diversas<br />cores. Dê vida ao look do dia ao apostar nessa<br /> cor.</p>
+          <a href="#" title="">SHOP NOW <i class="fa fa-angle-right fa-fw" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+
     <footer id="footer">
 
     </footer>  
