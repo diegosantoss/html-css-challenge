@@ -10,14 +10,27 @@
 			height: 780px;
 			z-index: 0;
 
+			@include amr-media($medium){
+				height: 500px;
+			}			
+
 			& .image{
 			    position: absolute;
 			    top: -140px;
 			    left: 10%;
 			    z-index: -1;
 
+			    @include amr-media($medium){
+				    top: -34px;
+				    left: -100px;			    	
+			    }
+
 				& img{
     				width: 685px;
+
+    				@include amr-media($medium){
+						width: 390px;
+    				}
 				}
 			}
 
@@ -28,6 +41,11 @@
 			    z-index: 99999;
 			    display: block;
 
+				@include amr-media($medium){
+					margin-top: 130px;
+					width: 293px;
+				}				    
+
 				& h2{
 					text-transform: uppercase;
 					font-family: gotham-medium;
@@ -35,6 +53,10 @@
 					color: $white;
 				    letter-spacing: 10px;
 				    font-weight: bold;
+
+					@include amr-media($medium){
+						font-size: 50px;
+					}
 				}
 
 				& p{
@@ -42,6 +64,17 @@
 			    	color: $white;
 			    	font-family: gotham-book;
 					padding: 30px 0px 30px 0px;
+
+					@include amr-media($medium){
+					    font-size: 15px;
+					    line-height: 1.5;
+					}
+
+				    & .br-text{
+				    	@include amr-media($medium){
+				    		display: none;
+				    	}					
+				    }						
 				}
 
 				& a{
@@ -51,6 +84,11 @@
 					font-size: 1vw;
 					display: inline-block;	
 					transition: .2s all;
+
+					@include amr-media($medium){
+						padding: 15px 50px;
+						font-size: 16px;
+					}				
 
 					&:hover{
 						transition: .2s all;

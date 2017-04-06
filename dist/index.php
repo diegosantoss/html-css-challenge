@@ -64,7 +64,7 @@
         <div class="left">
           <div class="pratico">
             <h2>prático</h2>
-            <p>Não pense duas vezes: ao escolher o casaco<br /> para o inverno ou meia estação nada melhor que<br /> o Trench Coat! Proteja-se contra o vento e as<br /> temperaturas mais baixas sem perder o estilo.</p>
+            <p>Não pense duas vezes: ao escolher o casaco<spam class="br-text"><br /></spam> para o inverno ou meia estação nada melhor que<spam class="br-text"><br /></spam> o Trench Coat! Proteja-se contra o vento e as<spam class="br-text"><br /></spam> temperaturas mais baixas sem perder o estilo.</p>
             <a href="#" title="">SHOP NOW <i class="fa fa-angle-right fa-fw" aria-hidden="true"></i></a>
           </div>
           <div class="text">
@@ -93,7 +93,7 @@
         </div>
         <div class="text-preto">
           <h2>preto</h2>
-          <p>Nossa cor favorita do inverno não poderia faltar.<br />Se você é a favor da máxima quanto mais preto<br />melhor, bem... Vá de preto!</p>
+          <p>Nossa cor favorita do inverno não poderia faltar.<spam class="br-text"><br /></spam> Se você é a favor da máxima quanto mais preto<spam class="br-text"><br /></spam> melhor, bem... Vá de preto!</p>
           <a href="#" title="">SHOP NOW <i class="fa fa-angle-right fa-fw" aria-hidden="true"></i></a>
         </div>
       </div>
@@ -103,7 +103,7 @@
       <div class="content">
         <div class="text-vinho">
           <h2>vinho</h2>
-          <p>Nem só de tons sóbrios se vive um inverno. O<br />vermelho é clássico e combina com diversas<br />cores. Dê vida ao look do dia ao apostar nessa<br /> cor.</p>
+          <p>Nem só de tons sóbrios se vive um inverno. O<spam class="br-text"><br /></spam> vermelho é clássico e combina com diversas<spam class="br-text"><br /></spam> cores. Dê vida ao look do dia ao apostar nessa<spam class="br-text"><br /></spam> cor.</p>
           <a href="#" title="">SHOP NOW <i class="fa fa-angle-right fa-fw" aria-hidden="true"></i></a>
         </div>
       </div>
