@@ -76,21 +76,16 @@
 						}		
 
 					    @include amr-media($medium){
-						    padding: 13px 30px;
-						    font-size: 14px;			    
+							padding: 15px 50px;
+							font-size: 16px;			    
 					    }								    	
 				    }
 				}
 
 				& .text{
-					position: absolute;
-					left: -25px;
-					top: 32%;
-
-				    @include amr-media($medium){
-					    left: -8px;
-					    top: 25.8%;		    
-				    }						
+				    display: flex;
+				    margin-bottom: -7%;
+				    z-index: 99999999;					
 
 					h2{
 					    font-weight: bold;
@@ -98,6 +93,7 @@
 					    font-size: 9.5vw;
 					    font-family: gotham-medium;
 					    letter-spacing: 60px;
+					    z-index: 99999999;
 					    
 					    @include amr-media($medium){
 						    font-size: 15vw;
@@ -136,8 +132,8 @@
 						transition: .2s all;
 
 					    @include amr-media($medium){
-						    padding: 13px 30px;
-						    font-size: 14px;			    
+							padding: 15px 50px;
+							font-size: 16px;		    
 					    }							
 
 						&:hover{
@@ -155,6 +151,7 @@
 
 				@include amr-media($medium){
 					width: 100%;
+					text-align: right;
 				}
 
 				& .imagem{
@@ -164,7 +161,7 @@
 
 					@include amr-media($medium){
 						width: 100%;
-						float: inherit;
+						float: none;
 						padding-top: 35px;
 					}
 
@@ -173,6 +170,10 @@
 					    margin: auto;
 					    display: block;
 					    padding-bottom: 50px;
+
+					    @include amr-media($medium){
+					    	padding-bottom: 0px;
+					    }
 					}
 				}
 
@@ -184,6 +185,12 @@
 					    font-size: 8.5vw;
 					    font-family: gotham-medium;
 					    letter-spacing: 15px;
+
+					    @include amr-media($medium){
+						    font-size: 15vw;
+						    letter-spacing: inherit;	
+						    margin-top: -11%;    
+					    }						    
 					}
 				}								
 			}

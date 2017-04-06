@@ -14,9 +14,9 @@
 function hgScreen(){
   var hgHeight = window.innerHeight;
   hgCenter = ( hgHeight - $('.content-center-home > div > h1').height() ) / 2;
-  
-  if(hgHeight >= 992){
-	  $('.content-center-home').css('height', hgHeight);
+
+  if(window.innerWidth >= 991){
+	  $('.content-center-home').css('height', hgHeight + 'px');
 	  $('.content-center-home > div > h1').css({'margin-top': hgCenter + 'px'});  	
   }
 }

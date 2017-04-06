@@ -146,22 +146,19 @@ li {
             color: #333333; }
           @media screen and (max-width: 991px) {
             #classico-casual .content .left .pratico a {
-              padding: 13px 30px;
-              font-size: 14px; } }
+              padding: 15px 50px;
+              font-size: 16px; } }
       #classico-casual .content .left .text {
-        position: absolute;
-        left: -25px;
-        top: 32%; }
-        @media screen and (max-width: 991px) {
-          #classico-casual .content .left .text {
-            left: -8px;
-            top: 25.8%; } }
+        display: flex;
+        margin-bottom: -7%;
+        z-index: 99999999; }
         #classico-casual .content .left .text h2 {
           font-weight: bold;
           text-transform: uppercase;
           font-size: 9.5vw;
           font-family: gotham-medium;
-          letter-spacing: 60px; }
+          letter-spacing: 60px;
+          z-index: 99999999; }
           @media screen and (max-width: 991px) {
             #classico-casual .content .left .text h2 {
               font-size: 15vw;
@@ -191,8 +188,8 @@ li {
           transition: .2s all; }
           @media screen and (max-width: 991px) {
             #classico-casual .content .left .imagem a {
-              padding: 13px 30px;
-              font-size: 14px; } }
+              padding: 15px 50px;
+              font-size: 16px; } }
           #classico-casual .content .left .imagem a:hover {
             transition: .2s all;
             background: #ffffff;
@@ -202,7 +199,8 @@ li {
       float: right; }
       @media screen and (max-width: 991px) {
         #classico-casual .content .right {
-          width: 100%; } }
+          width: 100%;
+          text-align: right; } }
       #classico-casual .content .right .imagem {
         text-align: center;
         width: 85%;
@@ -210,19 +208,27 @@ li {
         @media screen and (max-width: 991px) {
           #classico-casual .content .right .imagem {
             width: 100%;
-            float: inherit;
+            float: none;
             padding-top: 35px; } }
         #classico-casual .content .right .imagem img {
           width: 100%;
           margin: auto;
           display: block;
           padding-bottom: 50px; }
+          @media screen and (max-width: 991px) {
+            #classico-casual .content .right .imagem img {
+              padding-bottom: 0px; } }
       #classico-casual .content .right .text h2 {
         font-weight: bold;
         text-transform: uppercase;
         font-size: 8.5vw;
         font-family: gotham-medium;
         letter-spacing: 15px; }
+        @media screen and (max-width: 991px) {
+          #classico-casual .content .right .text h2 {
+            font-size: 15vw;
+            letter-spacing: inherit;
+            margin-top: -11%; } }
 
 #casaco-preto {
   width: 100%;
