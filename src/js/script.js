@@ -18,6 +18,9 @@ function hgScreen(){
   if(window.innerWidth >= 991){
 	  $('.content-center-home').css('height', hgHeight + 'px');
 	  $('.content-center-home > div > h1').css({'margin-top': hgCenter + 'px'});  	
+  } else {
+    $('.content-center-home').css('height', 'auto');
+    $('.content-center-home > div > h1').css({'margin-top': 'auto'});
   }
 }
 
