@@ -37,10 +37,6 @@ gulp.task('html', function() {
     .pipe(livereload());
 });
 
-gulp.task('php', function() {
-  return gulp.src('src/*.php')
-    .pipe(livereload());
-});
 
 gulp.task('js', function() {
   return gulp.src('src/js/*.js')
@@ -48,7 +44,7 @@ gulp.task('js', function() {
     .pipe(livereload());
 });
 
-gulp.task('watch', ['sass','html','php','js'], function (){
+gulp.task('watch', ['sass','html','js'], function (){
   livereload.listen();
 
   //Watch SCSS files
@@ -60,8 +56,6 @@ gulp.task('watch', ['sass','html','php','js'], function (){
   //Watch HTML file
   gulp.watch('src/*.html', ['html']);
 
-  //Watch PHP file
-  gulp.watch('src/**/*.php', ['php']);  
 });
 
 
@@ -77,9 +71,7 @@ gulp.task('another-files:src', function() {
  });
 
 gulp.task('useref', function(cb){
-  return gulp.src('src/**/*.php')
-    .pipe( gulpIf('*/header.php', replace('href="css','href="../css') ) )
-    .pipe( gulpIf('*/header.php', replace('src="js','src="../js') ) )
+  return gulp.src('src/**/*.html')
     .pipe(useref())
     // Minifies only if it's a JS file
     .pipe(gulpIf('*.js', uglify()))
@@ -97,44 +89,24 @@ gulp.task('images', function(){
   .pipe(gulp.dest('dist/images'))
 });
 
-gulp.task('videos', function(){
-  return gulp.src('src/videos/**/*.+(mp4|mov|ogg|avi|3gp|webm)')
-  .pipe(gulp.dest('dist/videos'))
-});
-
 gulp.task('fonts', function() {
   return gulp.src('src/fonts/**/*')
   .pipe(gulp.dest('dist/fonts'))
 });
 
-gulp.task('files', function() {
-  return gulp.src('src/files/**/*')
-  .pipe(gulp.dest('dist/files'))
-});
-
-gulp.task('hta', function() {
-  return gulp.src('src/.htaccess')
+gulp.task('md', function() {
+  return gulp.src('src/**/*.md')
   .pipe(gulp.dest('dist'))
 });
 
-gulp.task('txt', function() {
-  return gulp.src('src/**/*.txt')
-  .pipe(gulp.dest('dist'))
-});
-
-
-gulp.task('phpfile', function() {
-  return gulp.src('src/**/*.php')
-  .pipe(gulp.dest('dist'))
-});
 
 gulp.task('clean:dist', function() {
   return del.sync('dist');
 });
 
 gulp.task('build', function(callback) {
-  runSequence(['clean:dist','sass','phpfile'],
-    ['useref','images','videos','fonts','files','another-files:src','hta','txt'],
+  runSequence(['clean:dist','sass'],
+    ['useref','images','fonts','another-files:src','md'],
     callback
   )
 });
