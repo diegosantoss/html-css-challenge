@@ -27,9 +27,9 @@ Caso queiram modificar é preciso seguir os passos abaixo.
 
 	5) Se houver algum erro, rode o seguinte comando: npm install --save-dev  del gulp gulp-cache gulp-cssnano gulp-if gulp-imagemin gulp-livereload gulp-minify-html gulp-plumber gulp-replace gulp-sass gulp-uglify gulp-useref gulp-util run-sequence
 
-	6) Inicie novamente o projeto com o comando gulp watch e não se esqueça de ativar o livereload no navegador.
+	6) Inicie novamente o projeto com o comando gulp watch.
 
-	7) Abra o arquivo .html dentro a pasta ./src/
+	7) Abra o arquivo .html dentro a pasta ./src/ e não se esqueça de ativar o livereload no navegador.
 
 	8) Faça as alterações necessárias.
 
