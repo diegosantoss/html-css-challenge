@@ -1,4 +1,5 @@
 Para apenas visualizar o projeto:
+
 	1) Abrir a pasta raiz do projeto.
 
 	2) Abrir o arquivo.html dentro da pasta ./dist/
